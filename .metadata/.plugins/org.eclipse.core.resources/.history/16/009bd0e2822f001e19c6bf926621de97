@@ -21,9 +21,8 @@
 			
 			
 			<button type="submit">Reset</button>	
+			<button style="background-color: red">Clear</button>	
 		</form>
-		<button style="background-color: red">Clear</button>	
-		
 	</body>
 
 </html>

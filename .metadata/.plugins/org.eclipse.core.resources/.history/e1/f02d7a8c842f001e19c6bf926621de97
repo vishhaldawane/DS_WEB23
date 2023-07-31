@@ -16,7 +16,7 @@
 		<form action="Login3.html">
 	
 		
-		<table style="margin-right: auto; margin-left: auto">
+		<table>
 		
 		
 			<tr>
@@ -66,13 +66,9 @@
 				<td> <button type="submit">Register</button> </td>	
 			</tr>
 			
-			<tr>
-				<td>
-						<button style="background-color: red">Clear</button>	
-				</td>
-			</tr>
 		</form>
 			
+			<button style="background-color: red">Clear</button>	
 		
 		</table>
 		

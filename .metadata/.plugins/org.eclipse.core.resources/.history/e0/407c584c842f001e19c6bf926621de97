@@ -16,16 +16,16 @@
 		<form action="Login3.html">
 	
 		
-		<table style="margin-right: auto; margin-left: auto">
+		<table>
 		
 		
 			<tr>
 				<td> 
 					<label>Enter email</label> 
-				</td>
+				<td>
 				
 				<td> 
-					<input  type=text name="ueamil">
+					<input  type=text     name="ueamil">
 				</td>
 			</tr>
 			
@@ -63,16 +63,12 @@
 			</tr>
 			
 			<tr>
-				<td> <button type="submit">Register</button> </td>	
+				<button type="submit">Register</button>	
 			</tr>
 			
-			<tr>
-				<td>
-						<button style="background-color: red">Clear</button>	
-				</td>
-			</tr>
 		</form>
 			
+			<button style="background-color: red">Clear</button>	
 		
 		</table>
 		
