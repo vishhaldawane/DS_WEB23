@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+	<title>Login here</title>
+	<link rel="stylesheet" href="Login3.css">
+</head>
+	
+	
+	<body>
+		<h1>My Airlines</h1>
+		<hr>
+		<h2>Register Here</h2>
+		
+		<form action="Login3.html">
+			<label>Enter email</label> <input  type=text     name="ueamil"><br>
+			<label>Enter birthdate</label> <input  type=date     name="udob"><br>
+	
+			<label>Enter username</label> <input  type=text     name="uname"><br>
+			<label>Enter password</label> <input  type=password name="upass"><br>
+			
+			<button type="submit">Register</button>	
+			<button style="background-color: red">Clear</button>	
+		</form>
+	</body>
+
+</html>
