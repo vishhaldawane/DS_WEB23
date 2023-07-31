@@ -19,10 +19,9 @@
 	
 			<label>Enter username</label> <input  type=text     name="uname"><br>
 			<label>Enter password</label> <input  type=password name="upass"><br>
-
-			Already Registered? Click <a href="Login3.html">Here</a><br>		
 			
 			<button type="submit">Register</button>	
+			Already Registered? Click <a href="Login3.html">Here</a>		
 			
 			<button style="background-color: red">Clear</button>	
 		</form>
