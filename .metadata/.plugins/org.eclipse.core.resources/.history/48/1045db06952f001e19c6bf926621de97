@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+ 
+ 
+ function checkEmptyField(fieldId) {
+ 
+ 	alert('checkEmptyField '+fieldId);
+ 	
+ }
+ 
+ function clearTheForm() {
+				document.getElementById('uname').value="";
+				document.getElementById('upass').value="";
+				
+}
+
+function clearNameErrMsg() {
+				document.getElementById('nameErr').innerHTML="";
+
+}
+			
+function clearPassErrMsg() {
+				document.getElementById('passErr').innerHTML="";
+
+}

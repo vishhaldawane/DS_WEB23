@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+ 
+ 
+ function checkEmptyField(fieldId) {
+ 
+ 	alert('checkEmptyField '+fieldId);
+ 	
+ }
+ 
+ function clearTheForm() {
+				document.getElementById('uname').value="";
+				document.getElementById('upass').value="";
+				
+}

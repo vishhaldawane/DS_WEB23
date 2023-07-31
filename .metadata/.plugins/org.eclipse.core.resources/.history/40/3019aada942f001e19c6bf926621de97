@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+ 
+ 
+ function checkEmptyField(fieldId) {
+ 
+ 	alert('checkEmptyField '+fieldId);
+ 	
+ }

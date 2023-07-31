@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+	<title>Login here</title>
+	<link rel="stylesheet" href="Login3.css">
+</head>
+	
+	
+	<body>
+		<script>
+			function validate() {
+				var x=document.getElementById('uname').value;
+				var y=document.getElementById('upass').value;
+				
+				console.log('value of x '+x);
+				console.log('value of y '+y);
+
+				if(x =="") {
+					//alert('Username cannot be blank');	
+					document.getElementById("nameErr").innerHTML="Username cannot be blank";
+					return false;
+				}		
+				
+				if(y =="") {
+					//alert('Password cannot be blank');	return false
+					document.getElementById("passErr").innerHTML="Password cannot be blank";
+					return false;
+				}			
+				return true;
+			}	
+			
+			function clearForm() {
+				document.getElementById('uname').value="";
+				document.getElementById('upass').value="";
+				
+			}
+			
+			function clearNameErrMsg() {
+				document.getElementById('nameErr').innerHTML="";
+
+			}
+			
+			function clearPassErrMsg() {
+				document.getElementById('passErr').innerHTML="";
+
+			}
+			
+		</script>
+		<h1>My Airlines</h1>	
+		<hr>
+		<h2>Login Here</h2>	
+		<form action="DashBoard.html">
+			<label>Enter username</label> <input  type=text     onkeyup="clearNameErrMsg()" id="uname"><span id="nameErr"></span><br>
+			<label>Enter password</label> <input  type=password onkeyup="clearPassErrMsg()" id="upass"><span id="passErr"></span><br>	
+			Not a member yet? Click <a href="Register.html">Here</a> to register<br>	
+			Reset password? Click <a href="ResetPassword.html">Here</a><br>	
+			Forgot password? Click <a href="ForgotPassword.html">Here</a><br>	
+			
+			<button onclick="return validate();" type="submit">Login</button>	<br>
+		</form>
+		
+			<button onclick="clearForm()" style="background-color: red">Clear</button>
+		
+		
+		
+	</body>
+
+</html>
