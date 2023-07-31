@@ -1,0 +1,18 @@
+@charset "UTF-8";
+		h1 {
+			background-color:red; 
+			color: blue;
+		}
+		h2 {
+			color: green;
+		}
+		label {
+			color: blue; 
+			font-size: 20px;
+		}
+		input {
+			color: black; font-size: 20px
+		}
+		button {
+			padding: 15px; background-color: magenta; font-size: 20px
+		}
