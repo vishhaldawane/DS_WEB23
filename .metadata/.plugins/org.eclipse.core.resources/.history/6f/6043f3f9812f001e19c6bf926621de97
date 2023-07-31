@@ -24,9 +24,8 @@
 			
 			<button type="submit">Register</button>	
 			
-		</form>
 			<button style="background-color: red">Clear</button>	
-		
+		</form>
 	</body>
 
 </html>

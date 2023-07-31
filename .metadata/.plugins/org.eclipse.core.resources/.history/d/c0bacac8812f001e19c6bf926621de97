@@ -22,10 +22,9 @@
 			Forgot password? Click <a href="ForgotPassword.html">Here</a><br>	
 			
 			<button type="submit">Login</button>	
+			<button style="background-color: red">Clear</button>
 				
 		</form>
-			<button style="background-color: red">Clear</button>
-		
 	</body>
 
 </html>

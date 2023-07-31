@@ -18,14 +18,13 @@
 			<label>Enter password</label> <input  type=password name="upass"><br>
 			
 			Not a member yet? Click <a href="Register.html">Here</a> to register<br>	
-			Reset password? Click <a href="ResetPassword.html">Here</a><br>	
-			Forgot password? Click <a href="ForgotPassword.html">Here</a><br>	
+			Reset password? Click <a href="ResetPassword.html">Here</a> to register<br>	
+			Forgot password? Click <a href="ForgotPassword.html">Here</a> to register<br>	
 			
 			<button type="submit">Login</button>	
+			<button style="background-color: red">Clear</button>
 				
 		</form>
-			<button style="background-color: red">Clear</button>
-		
 	</body>
 
 </html>
