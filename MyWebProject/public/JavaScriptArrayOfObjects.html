@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<script>
+	
+	let bankAccObj = 
+	[
+			{
+				"accountNumber" : 1234,
+				"accountHolder" : 'Shreeharsha',
+				"accountBalance": 5000,
+				"accountOpeningDate": '2021-04-25',
+	
+					"accHomeAddress" : {
+					"area":'West Avenue',
+					"street":'10th Cross Road',
+					"city":'Pune',
+					"state":'Maharashtra',
+					"country":'India',
+					"pin":'401501',
+				}
+			},
+			{
+				"accountNumber" : 1235,
+				"accountHolder" : 'Nagratna',
+				"accountBalance": 6000,
+				"accountOpeningDate": '2021-04-25',
+	
+					"accHomeAddress" : {
+					"area":'East Avenue',
+					"street":'12th Cross Road',
+					"city":'Chennai',
+					"state":'Tamilnadu',
+					"country":'India',
+					"pin":'501601',
+				}
+			},
+			{
+				"accountNumber" : 7676,
+				"accountHolder" : 'Ambika',
+				"accountBalance": 7000,
+				"accountOpeningDate": '2021-04-25',
+	
+					"accHomeAddress" : {
+					"area":'South Avenue',
+					"street":'6th Cross Road',
+					"city":'Mumbai',
+					"state":'Maharahstra',
+					"country":'India',
+					"pin":'400016',
+				}
+			}
+	];
+	
+	for(i=0;i<3;i++)
+	{
+		document.writeln('<table border=5 cellspacing=10 cellpadding=10>');
+	
+			document.writeln('<tr>');
+					document.writeln('<th>Account number</th>');
+					document.writeln('<th>Account Holder</th>');
+					document.writeln('<th>Account Balance</th>');
+					document.writeln('<th>Opening Date</th>');
+				/*	document.writeln('<th>Home Address</th>');*/
+			document.writeln('</tr>');	
+						
+			document.writeln('<tr>');
+					document.writeln('<td>'+bankAccObj[i].accountNumber+"</td>");
+					document.writeln('<td>'+bankAccObj[i].accountHolder+"</td>");
+					document.writeln('<td>'+bankAccObj[i].accountBalance+"</td>");
+					document.writeln('<td>'+bankAccObj[i].accountOpeningDate+"</td>");
+							
+					document.writeln('<td>');
+	
+					document.writeln('<tr>');
+						document.writeln('<th>Home Address</th>');
+					document.writeln('</tr>');
+	
+							document.writeln('<tr>');
+								document.writeln('<th>Area</th>');
+								document.writeln('<th>Street</th>');
+								document.writeln('<th>City</th>');
+								document.writeln('<th>State</th>');
+								document.writeln('<th>Country</th>');
+								document.writeln('<th>Pin</th>');
+							document.writeln('</tr>');	
+				
+							document.writeln('<tr>');
+								document.writeln('<td>'+bankAccObj[i].accHomeAddress.area+"</td>");			
+								document.writeln('<td>'+bankAccObj[i].accHomeAddress.street+"</td>");			
+								document.writeln('<td>'+bankAccObj[i].accHomeAddress.city+"</td>");			
+								document.writeln('<td>'+bankAccObj[i].accHomeAddress.state+"</td>");			
+								document.writeln('<td>'+bankAccObj[i].accHomeAddress.country+"</td>");			
+								document.writeln('<td>'+bankAccObj[i].accHomeAddress.pin+"</td>");			
+							document.writeln('</tr>');
+						
+						document.writeln('</table>');
+					
+					document.writeln('</td>');
+					
+			document.writeln('</tr>');
+			
+		document.writeln('</table>');
+	
+	}
+	
+	</script>
+</body>
+</html>
