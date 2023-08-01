@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+  <p>Before the script...</p>
+
+  <script>
+
+	alert("Hello");
+	let age = prompt('How old are you?', 18);
+
+	alert(`You are ${age} years old!`); // You are 100 years old!	
+
+	let test1 = prompt("Test"); // on cancel it would assign 'undefined'
+	alert(test1);
+
+	let test2 = prompt("Test",''); // <-- for IE
+	alert(test2);
+
+	let isBoss = confirm("Are you the boss?");
+
+	alert( isBoss ); // true if OK is pressed
+	
+  </script>
+
+  <p>...After the script.</p>
+
+</body>
+
+</html>
