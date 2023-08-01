@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+ 
+ 
+ function validateBirthdate() {
+ 
+	var dob = document.getElementById("udob");
+	
+	console.log('birthdate : '+dob);
+	
+	
+ }
+ 
+ 

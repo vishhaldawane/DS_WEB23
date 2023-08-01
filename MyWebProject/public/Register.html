@@ -8,12 +8,18 @@
 </head>
 	
 	
+	
 	<body>
+	
+		<script src="ValidateDate.js">
+		</script>
+		
+		
 		<h1>My Airlines</h1>
 		<hr>
 		<h2>Register Here</h2>
 		
-		<form action="Login3.html">
+		<form action="Login4.html">
 	
 		
 		<table style="margin-right: auto; margin-left: auto">
@@ -35,7 +41,7 @@
 				</td>
 				
 				<td>
-				 	<input  type=date     name="udob">
+				 	<input  type=date     id="udob">
 				</td>
 			</tr>
 			
@@ -59,11 +65,11 @@
 			</tr>
 			
 			<tr>
-				<td> Already Registered? Click <a href="Login3.html">Here</a></td>		
+				<td> Already Registered? Click <a href="Login4.html">Here</a></td>		
 			</tr>
 			
 			<tr>
-				<td> <button type="submit">Register</button> </td>	
+				<td> <button onclick="return validateBirthdate()" type="submit">Register</button> </td>	
 			</tr>
 			
 			<tr>

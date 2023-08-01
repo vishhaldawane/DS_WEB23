@@ -351,3 +351,6 @@ java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "t
 
 !ENTRY org.eclipse.lsp4e 1 0 2023-07-31 16:56:51.287
 !MESSAGE [Info]	ESLint server running in node v14.15.4
+
+!ENTRY org.eclipse.lsp4e 1 0 2023-07-31 17:11:00.023
+!MESSAGE [Info]	ESLint server running in node v14.15.4

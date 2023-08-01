@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+	<title>Login here</title>
+	<link rel="stylesheet" href="Login3.css">
+</head>
+	
+	
+	<body>
+		<h1>My Airlines</h1>
+		<hr>
+		<h2>Register Here</h2>
+		
+		<form action="Login3.html">
+	
+		
+		<table style="margin-right: auto; margin-left: auto">
+		
+		
+			<tr>
+				<td> 
+					<label>Enter email</label> 
+				</td>
+				
+				<td> 
+					<input  type=text name="ueamil">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<label>Enter birthdate</label>
+				</td>
+				
+				<td>
+				 	<input  type=date     name="udob">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<label>Enter username</label> 
+				</td>
+				
+				<td>
+					<input  type=text     name="uname">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<label>Enter password</label>
+				</td>
+				<td>
+					 <input  type=password name="upass">
+				</td>
+			</tr>
+			
+			<tr>
+				<td> Already Registered? Click <a href="Login3.html">Here</a></td>		
+			</tr>
+			
+			<tr>
+				<td> <button type="submit">Register</button> </td>	
+			</tr>
+			
+			<tr>
+				<td>
+						<button style="background-color: red">Clear</button>	
+				</td>
+			</tr>
+		</form>
+			
+		
+		</table>
+		
+	</body>
+
+</html>
