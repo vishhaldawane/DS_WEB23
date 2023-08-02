@@ -33,7 +33,7 @@ function sendInfo()
 
 function getInfo() {
 	
-	if (this.readyState == 1) {
+	/*if (this.readyState == 1) {
         root.innerHTML += 'This is OPENED state <br />'
      }
      if (this.readyState == 2) {
@@ -44,12 +44,19 @@ function getInfo() {
      }
      if (this.readyState == 4) {
         root.innerHTML += 'This is DONE state <br />'
-     }
-     root.innerHTML+='<hr>'
+     }*/
+    // root.innerHTML+='<hr>'
      
 	if(request.readyState==4){
 		var val=request.responseText;
 		document.getElementById('myid').innerHTML=val;
+		
+		var jsonObj = JSON.parse(request.responseText);//JSON.parse() returns JSON object    
+        document.getElementById("date").innerHTML =  jsonObj.albumId;    
+        document.getElementById("id").innerHTML = jsonObj.id;  
+        document.getElementById("title").innerHTML =jsonObj.title
+        document.getElementById("url").innerHTML =jsonObj.url
+        document.getElementById("thumbnailUrl").innerHTML =jsonObj.thumbnailUrl
 	}
 }
 
@@ -66,6 +73,22 @@ function getInfo() {
 <span id="root"> </span> <br>
 
 <span id="myid"> </span>
+<table border=5>
+	<tr>
+		<th>DATE</th> 
+		<th>ID</th> 
+		<th>TITLE</th> 
+		<th>URL</th> 
+		<th>TUMBNAIL URL</th> 
+	</tr>
+	<tr>
+		<td id="date"></td>
+		<td id="id"></td>
+		<td id="title"></td>
+		<td id="url"></td>
+		<td id="thumbnailUrl"></td>
+	</tr>
+</table>
 
 </body>
 </html>
