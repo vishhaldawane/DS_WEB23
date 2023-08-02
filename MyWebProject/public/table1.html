@@ -32,6 +32,21 @@ function sendInfo()
 }
 
 function getInfo() {
+	
+	if (this.readyState == 1) {
+        root.innerHTML += 'This is OPENED state <br />'
+     }
+     if (this.readyState == 2) {
+        root.innerHTML += 'This is HEADERS_RECEIVED state <br />'
+     }
+     if (this.readyState == 3) {
+        root.innerHTML += 'This is LOADING state <br />'
+     }
+     if (this.readyState == 4) {
+        root.innerHTML += 'This is DONE state <br />'
+     }
+     root.innerHTML+='<hr>'
+     
 	if(request.readyState==4){
 		var val=request.responseText;
 		document.getElementById('myid').innerHTML=val;
@@ -44,9 +59,11 @@ function getInfo() {
     <marquee><h1>This is an example of ajax with database</h1></marquee>
 
 <form name="myform">
+
 	<input type="text" name="t1" onkeyup="sendInfo()"> //346
 	
 </form>
+<span id="root"> </span> <br>
 
 <span id="myid"> </span>
 
