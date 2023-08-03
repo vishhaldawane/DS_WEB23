@@ -1,0 +1,2259 @@
+	
+82877658968
+104673
+
+
+MPR
+---------------------------------------------------------------------
+Pushpendra	Rajesh		Kunal		Nikhil
+---------------------------------------------------------------------
+Devendra	Prajakta	Maithili	Roshan	Vishal
+---------------------------------------------------------------------
+Omkar		Rohan		Sashwat		Aryan	Devyani
+---------------------------------------------------------------------
+Mitali		Akshay		Shruti		Pratik	Ratan
+---------------------------------------------------------------------
+
+GT
+---------------------------------------------------------------------
+Anjali		Pawan*		Shobhit*	Ankush*
+---------------------------------------------------------------------
+Sujal		Arya		Vikas		Paritosh
+---------------------------------------------------------------------
+Pallavi		Srijani*	Mihir		Darshan
+---------------------------------------------------------------------
+Pratiksha 	Salil 		Mayuresh	
+---------------------------------------------------------------------
+
+MPR
+------
+Mitali
+Shruti
+Ratan
+Aryan
+Rohan
+Omkar
+Devendra
+Vishal
+Devyani
+Maithili
+Nikhil
+Kunal
+Pushpendra
+-------------
+
+Bengaluru
+-------
+
+GT
+-----
+
+Pallavi
+Sujal
+Mihir
+Vikas
+Darshan
+
+
+
+ git init
+  419  git add .
+  420  git commit -m "my first add"
+  421  git status
+  422  git remote add origin https://github.com/vishhaldawane/JavaMay2023.git
+  423  git push origin master
+
+
+
+
+
+				who
+				|role? 
+		-----------------------------------
+		|				|
+		where				when
+		|space				|time
+	--------------------------------------------------
+	|			|			|
+	why			what			how
+	reason			information		implementation
+								|
+							--------------
+							|	   |
+							success   feedback
+	
+		
+
+
+
+	space+time+situation
+
+
+			Java Technologies
+				|
+		---------------------------------
+		|		|		|
+		JSE		JEE		JME
+		|		|		|	
+		core		enterprise	micro [ android ]
+		|		|		handheld devices [ mobile ]
+	Language fundas		|
+	OOPS concepts		------------------
+	packages		|	|	|
+	exception handling	EJB	Entity	Message
+	multithreading		|Spring |	|JMS
+				|	|	SMS Whatsapp Mail
+	generics		|	---------	
+	collections	    ---------	|	|	
+	file handling	    |       |  BMP	CMP
+	jdbc		Stateless  Stateful
+	|		
+Advanced Java
+	Socket programming
+	RMI
+	
+Persistence : means storing JAVA OBJECTS  on the database as a ROW
+				|			      |
+	DML+DQL			+-----------------------------+
+insert/update/delete/select			|
+					    ORM Tools [ Object Relational Mapping ]	
+			
+
+
+	Desktip Application, eg.	Calculator, MSPaint, MSWord
+					   VS.
+	Enterprise Application, e.g Book My Show, Currency Converter, Google Doc
+
+	1. Remotely available
+	2. High Availbaility
+	3. Multithreaded
+	4. Pooling of resources [ common users ]
+	5. Caching of resources [ unique users identified by PK ]
+	6. Tranaction management [ ACID properties ] 
+	7. Security management [ https ]
+
+
+	BACKEND | Java and DB
+	|
+	|To write REST API	class
+	|			|		   <-----data--------->
+URL	https://serverip:port/BankProject/addPayee/101/Suresh/BOB929292
+	<---7-----1-2--3--->   4/5        6	 <--- can be java object values-->
+	|				  |
+	|				calls a 
+	|				java function
+	|
+	|
+	FRONT END | javascript + html + css + jquery + ajax
+	index.html : <a href="URL"> Add Payee </a>
+
+
+
+	7 Habits of Highly Effective People 
+
+		u cannot decide your future
+		but you can decide your habits [ neural network ] 
+		and these habits will decide your future
+
+		PRIVATE VICTORY
+		1. Be Proactive
+		2. Begin WITH the END in Mind
+		3. Put First Thing First
+
+		4. win-win
+
+		PUBLIC VICTORY
+		5. Seek First to understand, then to be understood
+		6. Synergy
+		7. Sharpen the SAW
+
+
+
+
+
+			Java Programs 
+				|
+		-----------------------------------
+		|		|		|
+		Applications	Applets		Servlets
+		|		|		|
+		main()		no main		no main
+				....		init,service,destroy
+
+	com <--- folders / packages
+	|
+	dassault <-- folders / package
+	|
+	First.java <--- 
+	First.class
+
+First.java
+--------------
+package com.dassault;
+
+public class First 
+{	
+	public static void main(String args[])
+	{
+		System.out.println("Hello World");
+	}
+}
+
+		javac First.java
+		java Second
+
+class Jungle
+{
+	static Tiger tiger = new Tiger();
+}
+class Tiger
+{
+	void roar() {
+
+	}
+}
+	Jungle.tiger.roar();
+
+class System
+{
+	static PrintStream out = ....
+}
+class PrintStream
+{
+	void println() { }
+}
+	System.out.println();
+
+
+Naming Conventions
+--------------------
+
+	0. ProjectName : PascalCase : FirstProject, MultithreadingProject
+
+	1. ClassName : PascalCase : DriverManager, ResultSet, 
+
+	2. variableName : camelCase : rollNumber, socialSecurityNumber
+
+	3. methodName   : setLookAndFeel(), changeDepartmentName()
+
+	4. CONSTANT : CAPITALS : MAX,MIN, PI, SPEED_OF_LIGHT
+					GOD_IS_NO_WHERE
+					GOD_IS_NOW_HERE
+
+	5. packages : allsmalss : java.lang, java.awt.event 
+
+	package Com.Ds;
+	class driverManager {
+		int RollNumber;
+
+			void OpenConnection() {
+
+			}
+	}
+	-----------------
+
+	package com.ds;
+	class DriverManager {
+		int rollNumber;
+		void openConnection() {
+		
+		}
+	}
+-----------------------------------------------
+
+	Packages = similar to directories
+
+
+		directory | folder : to organize the concerned files
+
+			
+				jungle
+				|
+		------------------------------------
+		|	|	|	|	
+		cave	river	tree	house
+		|	|	|	|
+		Tiger	Frog	Parrot	FarmHouse
+		Lion	Fish	Monkey		- main()
+		Bear	Duck	BengalTiger
+
+
+
+		java
+		|
+		jungle.cave		jungle/cave - unix
+					jungle\cave -- windows
+
+		
+		1.        <-- default package access           
+		2. private
+		3. protected
+		4. public
+
+
+Pushpendra Rajesh   Kunal  Nikhil 
+Devendra   Prajakta Maithili Roshan Vishal
+Omkar      Rohan    Sashwat  Aryan  Devyani
+Mitali     Akshay   Shruti   Pratik Rathan
+
+
+				Data Types
+				|
+	------------------------------------------------
+	|						|
+	Primitive					Secondary
+	|							|
+------------------------------------------------		Object [ root of the class hierarchy ]
+|		|		|	 |			 |
+Integral	Floating   Character  Boolean			-----------------------------
+|		|		|	 |			|	 |		|
+byte  1 	float  4	char 2	 boolean 1 false	String StringBuffer StringBuilder
+short 2		double 8	ASCII+UNICODE	   true		 |
+int   4								char *month="June"; strcmp(month,"january");;
+long  8
+
+	Windows		Windows		Linux
+	TurboC		VC++		TurboC
+	int		int		int
+	2		4		4
+
+		char alpha='A';
+
+
+	0000 0000 0000 0000
+	<-------> <------->
+		  ASCII
+	<---UNICODE------->
+
+
+
+
+
+
+
+			Association 
+			     |
+		---------------------------------
+		|	|		|	|
+		isA	hasA		usesA	producesA
+
+
+
+	class Machine
+	{
+	}
+
+	class WashingMachine extends Machine
+	{
+	}
+
+
+	Top to Bottom
+
+	POPS = Procedure Oriented Programming System
+
+		procedure() <--- data
+
+		
+		var1	var2	var3	var4	var5	var6	var7
+
+				main() {
+				}
+
+		fun1()	fun2()	fun3()	fun4()	fun5()
+
+
+
+
+	OOPS 
+
+	Object Oriented Programming System
+	-----------------------------------
+		mind shift
+
+
+
+
+                                main() {
+    
+                            }
+
+	Bottom to Top
+	------------------------------
+	var1  var2
+                fun1()  fun2()  
+	------------------------------
+	var3 var4 var5
+	fun3()  fun4() 
+
+	------------------------------
+	var6 var7
+	 fun5()
+	------------------------------
+
+
+	Classes				vs		Object
+	|						|
+is a blue print of an Object		      instance of a Class	
+	
+
+	simple text file			a real world memory object
+
+	IDEA	
+
+	class SavingsAccount			SavingsAccount savAccObj =
+	{						new SavingsAccount();
+		FILEDS(data members)
+		+
+		METHODS(member functions)	
+	}
+
+	design of the object			outcome of that design
+
+	blueprint of a house			the actual house
+	  					- land? soil?
+	    					building material?
+	    					roofs, briks,
+	 paper, pencil, 
+	drawing material
+
+	-----------------------------------------------------------
+
+	
+
+	Constructor
+	-------------
+
+
+			-is a special code block
+			- which has the same name as per enclosing classname
+
+			- it does not have return type
+			- it can take parameters | hence it can be overloaded
+			
+			- IT IS CALLED DURING OBJECT CREATION PROCESS
+
+			- IT IS INVOKED AUTOMATICALLY
+
+			- IT CANNOT BE CALLED POST OBJECT CONSTRUCTION
+
+			- to initialize the object content
+
+			- if a user defined constructor is not specified
+			then JPL provides a default constructor
+
+			- U CAN HAVE EITHER IMPLICIT OR EXPLICIT BUT NOT BOTH
+
+	class Flight
+	{
+		<- there is a default constructor | IMPLICIT NO-ARG CTOR
+	}
+		
+	class Book
+	{
+		Book() { // explicit no-arg constructor
+		
+		}
+	}
+
+		Book b1 = new Book();
+		b1.Book(); //ERROR
+
+
+Four Basic Function Types
+
+	1. function without argument and without return value
+
+		void clearScreen() {
+		}
+
+	2.  function with argument BUT  without return value
+
+		void gotoLocation(float lattitude, float longitude){
+		}
+
+	3.  function with argument and   with return value
+
+		float  findAverage(float value1, float value2){
+			return (value1+value2)/2.0f;
+		}
+
+	4. function without argument, BUT with return value
+
+		double calculateDistanceBetweenEarthAndSun() {	
+
+			final INT TIME_TAKEN=480;
+			final float SPEED_OF_LIGHT=186000.519;
+
+			return TIME_TAKEN * SPEED_OF_LIGHT;
+		}		
+	
+
+OOPS Concepts
+-----------------
+
+	1. Abstraction
+		- it is the "what is ?" part of an object
+
+
+		What is an ATM?
+			- dispense cash!!!!
+
+		i) data abstraction
+		ii) procedural abstraction 
+		iii) class abstraction
+	
+		- hiding the complexity of an object
+		- providing the simplicity : USAGE of the object
+			- via public / accessible functions
+
+		
+	2. Encapsulation
+			
+		- it is the "how is it?" part of object
+
+		- binding of data with concerned function
+			- data is kept as private
+			
+
+
+	3. Polymorhism
+		
+		ability of a business entity to have multiple forms
+
+		a) class extension [ inheritance ]
+		b) function overloading
+			ability of a function to be redefined
+			on following terms
+			 i) number of parameters
+			ii) type of parameters
+			iii) type of sequence of parameters
+
+		
+		c) function overriding
+
+			let subclass redefine the function 
+			of its parent
+
+			- hiding the function of the parent
+
+		d)  operator overloading
+
+			ability of an operator to participate
+			objects in math expressions
+
+	class Employee { }
+
+	Employee e1,e2,e3;
+
+	e3 = e1 + e2;
+
+				Doctor
+				|
+			-------------------
+			|
+			Surgeon
+			|
+		-----------------
+		|
+	HeartSurgeon
+
+
+				BankAccount
+				|
+		-------------------------------------
+		|		|		|
+	SavingsAccount	CurrentAccount	CreditCardAccount
+	|
+	------------
+		|
+	FixedDepositAccount
+
+
+
+
+
+
+
+
+
+
+
+	4. Inheritance
+
+		Derivation	 vs		Implementation
+		|				|
+		|				|
+		Point2D <-super			MusicalInstrument <--abstract
+		|x,y				|play();
+		|show(){}			|
+		|				|
+		Point3D <--sub			StringBasedMusicalInstrument <--abstract
+		|				|tuneStrings();
+		|				|	
+		ColouredPoint3 <--subD		Guitar
+		|color				|play(){}
+						|tuneStrings(){}
+
+		a. single level
+		b. multi level
+		c. multiple level - interfaces
+		d. hierarchical level
+	
+
+
+	5. Object communication
+
+	
+
+	Person
+	|
+	Student
+	|
+	Employee
+
+				       
+				       <--Person----> 
+				       <-------------------Student------------------------>
+				       <--------------------------Employee---------------------------------------------->
+	Employee empObj = new Employee("Seema",'F',26,"Bharatee Vidyapeeth","Mech Eng",98.00,1012,"DS","Developer",250000);
+
+	equals and hashCode			 (2)
+	wait,wait,wait,notify,notifyAll		 (5)
+	finalize, clone, toStrings(), getClass   (4)
+
+			Object
+			|11 methods
+		------------
+		|
+		Person
+		|
+		Student
+		|
+		Employee
+
+	class Person // extends java.lang.Object
+	{
+		Person() {
+		  super();
+		}
+	}
+	class Student extends Person
+	{
+		Student() {
+		   super(); //default line of every ctor
+		}	
+	}
+	class Employee extends Student {
+		Employee() {
+		  super();
+		}
+	}
+
+
+this.	- points to the current class members, data/functions
+
+this()  - invokes the ctor of the current class
+
+super.  - points to the super class members, data/functions
+
+super() - invokes the ctor of the nearest super class
+
+
+
+					gender	name	age
+					-------------------------
+					|	|	|	|
+					--------------------------
+			+--------------->100
+			|
+			100
+			personObj
+
+	
+
+
+			Association
+			    |
+		--------------------------
+		|	|	|	|
+		isA	hasA	usesA	produceA
+
+
+	
+
+
+
+	hasA = composition
+
+		"a part" entity of the "whole entity"
+
+
+
+	class Engine {
+	}
+
+	class Vehicle { }
+
+	class Car extends Vehicle //isA - data type is affected, 
+			//Car is also a Vehicle now
+	{
+		Engine engineObj = new Engine(); //as a data member - hasA
+	}		//But Car is not Engine
+			// Car hasAn Engine
+
+
+	Bulb has a Filament
+
+	Ovan hasA HeatingCoil
+
+	Fridge has a Compressor
+
+	Fan hasA Motor
+
+	WashingMashine hasA WashingDrum/Tub
+
+	Human hasA Heart
+
+	vital part of the enclosing entity
+	Engine			"Car"
+	Heart			Human
+	HeatingCoil		Ovan
+
+
+	
+	Person
+	{
+		gender,age,name
+		AdhaarCard adhaarCard = new AdhaarCard();
+		Address address = new Address(); //hasA
+	}
+
+
+
+	Passing object argument/parameter
+
+	Returning Object as a return value
+
+
+
+
+	BankApplicationForm bankAppForm1 = new BankApplicationForm();
+
+
+
+					applicantName adresss	adhaarCard;panCard;mobileNumber;emailAddress;accountType;
+
+		+----------------------->100
+		|
+		100
+		bankAppForm1	
+
+	-----------------------------------------
+
+	Bank bank = new Bank();
+
+	void	applyForBankAccount(BankApplicationForm bankAppFormRef)
+	{
+		bankAppFormRef.
+	} 
+
+
+
+
+	A thought = invisible, vibration (frequency), faster than light,
+			in a non-linear way
+
+
+	A thought - or +
+
+	TEAR
+
+
+	invisible	  =   visible
+
+	unmanifested	  = manifested
+
+	Thought + Feeling = Action + Result
+	
+	frequency	  = frequency
+	
+		
+
+
+
+
+--------------------------------------------------------------------
+		static		final		abstract
+--------------------------------------------------------------------
+field		shared across   cannot be		X
+		all the objects changed/
+		of a class	constant
+--------------------------------------------------------------------
+method		to deal with	cannot be	
+		static data	overridden
+		/ functions
+--------------------------------------------------------------------
+class		inner classes	cannot be
+				extended
+--------------------------------------------------------------------
+					
+
+Method overriding : concept of instance's methods
+		  plus + accessible methods
+
+class Kite
+{
+	static void fun() { }
+        private void fly() { }
+}
+class ChineseKite extends Kite
+{
+	static void fun() { }
+	private void fly() { }
+}
+
+ChineseKite ck = new ChineseKite();
+ck.fly();
+ck.fun();
+Kite.fun();
+ChineseKite.fun();
+
+
+
+
+
+
+			
+				Kite (red)
+	Kite (blue)		|
+	|			|			Kite
+	|50m			|60m			|
+	|			|			|49m
+	Person			Person			Person
+	(Salil)			(Sujal)			(Ratan)
+
+
+Kite				Kite			Kite
+ |				|			|
+ color, length, owner		color, length, owner	color,length,owner
+	FIELD			 FIELD			FIELD
+			
+Vishhal
+FIELD : kiteCount:0
+
+		STATIC MEMBERS				NON-STATIC MEMBERS
+		|					|
+		Class's Members		vs		Instance's members
+		|					|
+		kiteCount				color,length,owner
+
+		showKiteCount(){}			showKite(){}
+							k1.kiteFight(k2)
+
+
+		can be referred
+		with the help of 
+		ClassName.memeberName
+
+		Kite.showKite();			k1.showKite();
+							k2.showKite();
+							k3.showKite();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+	abstract class GeometricalShape
+	{
+		abstract void draw();
+		abstract void calcArea();
+		abstract void calcPerimeter();
+	}
+
+	- in reality there is no such shape known as GeometricalShape
+
+	- so what is it?
+
+	- it is always a parent
+	
+	- abstract class meant for inheritance
+
+	- it is the partial contract of a class
+
+
+			symmetry across all the children
+
+				GeometricalShape
+				|calcArea(); <-- abstract function | method without code body
+			-------------------------------------
+			|		|		|
+			Square		Circle		Triangle
+			|length		|radius
+			|calcArea(){}	|calcArea(){}	calcArea(){}
+			|		|
+			Rectangle	Ellipse
+			|breadth	|verticalRadius
+
+
+
+	- instance of abstract class cannot be created
+
+	- but reference to it can be created
+
+
+
+
+
+
+	interface
+
+
+		- pure abstract class
+		
+		- a class only with partial contracts
+
+		- it cannot have methods with body
+
+		- by default all methods are public and abstract
+
+		- by default all fields are public static and final
+
+	interface Shape {
+		void draw(); //abstract | by default
+	}
+
+	abstract class GeometricalShape <-- contains partial contract
+	{
+		abstract void calcArea(); <-- partial contract
+	}
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	take the paper and pen
+
+	1. on the floor draw a circle using ur RIGHT toe in clockwise 
+	2. on the paper type 6 in anticlockwise using RIGHT hand
+
+e
+
+
+
+
+1										    Instrument
+								    			|use();
+						------------------------------------------------------------------------------------------------------------------------------------------------------
+						|								|						|				|
+2					MusicalInstrument							MedicalInstrument			ElectronicInstrument		MeasuringInstrument	ElectricalInstrument	MechanicalInstrument  OpticalInstrument	 .......
+						|play();							|operate();					
+			------------------------------------------------------------			-----------------------------------
+			|			|				|			|				|		
+3	StringBasedMusicalInstrument	AirBasedMusicalInstrument	DrumBasedMusicalInstrument	SurgicalInstrument	PathologicalInstrument
+	    |tuneStrings();			 |blowAir();			|tuneSurface();			|sterile()		|reader()
+	----------------		--------------------		-----------------------		------------------	------------------------
+	|	|			|	 |			|		|		|		|	|		|
+4	Guitar	Violin			Flute	Harmonium		Tabla		Dhol	SurgicalCutter  SurgicalNeedle Glucometer   ECGMachine
+	|pluck()  |bowing()
+5	Electronic| Cello
+	Guitar	  |longBowing();
+	|preset();
+
+
+
+	interface Flying {
+		void fly();
+	}
+	interface Landing {
+		void land();
+	}
+
+	abstract class Flight {
+		
+	}
+	class CommercialFlight extends Flight implements Flying, Landing {
+		
+	}
+
+	The word water is not WATER
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Exception handling
+
+		- Excpetion = runtime error in the program
+
+
+				Errors
+				|
+		----------------------------------
+		|	|	|	  |	 |
+		syntax library	runtime  fatal logical
+		|	|	 |	  |	   |
+	compile-time  missing  EXCEPTION -memory   4+4=16
+
+
+		      files		 -disk
+
+		
+if a function is throwing checked exceptions
+then it is mandatory to handle via try and catch
+
+
+a function can "throw" checked exception only 
+after a "throws" clause declaration
+
+
+class Bank
+{
+	void fun() {
+
+		try {
+
+			3 lines for fund transfer
+
+			5 lines for account openining
+
+			8 lines for statment printing
+
+		}
+		catch() { }
+		catch() { }
+
+		catch() { }
+		catch() { }
+		catch() { }
+
+		catch() { }
+		catch() { }
+		catch() { }
+		catch() { }
+		catch() { }
+
+	}
+
+}
+class A { // Ratan
+
+	void fun() throws Exception [ mandatory since it is checked ]
+	{
+		
+		throw new Exception();
+	}
+	void foo() <-- throws is not mandatory [ since it is unchecked] 
+	{
+		
+		throw new RuntimeException();
+	}
+}
+
+class Something { //Shruti
+
+	main() {
+	
+		A a = new A();
+		a.fun(); //<-- this line must be surrounded by try catch
+
+		a.foo(); // need not be surrounded by try catch
+	}
+}
+
+if a function is throwing unchecked exceptions
+then it is not mandatory to handle via try and catch
+
+
+				Object
+				|
+			--------------------
+			|
+			Throwable
+			|
+		-----------------
+		|		|	
+		Error		Exception
+	non-catchable		|catchable
+				| all children (except RuntimeException)
+				|	are checked type
+		----------------------------------
+		|		|		|
+	RuntimeException	IOException	SQLException
+		|(unchecked)		|
+--------------------------	FileNotFoundException
+|		   | |
+ArithmeticException| NullPointerException
+	IndexOutOfBoundsException
+		   |
+	--------------------------
+	|			 |
+ArrayIndexOutOfBoundsException StringIndexOutOfBoundsException
+
+
+
+
+
+
+
+
+
+			try
+			{
+				code
+			}
+			catch(......) { }
+			catch(.....) { }
+			catch(.....) { }
+		
+
+
+
+
+
+
+
+
+	void fundTransfer(src,trg,amt)
+	{
+
+		1. if(trg acc exists)
+		2. 	if(src acc exists)
+		3. 		if (src bal > amt)
+		4.     			src withdraw
+		5.			trg deposit
+		6.		else
+		7.			insuff bal at src
+		8.	else
+		9.		src not exists
+		10. else
+		11.	trg not exists
+	}
+
+
+	void fundTransfer(src,trg,amt)
+	{
+		try {
+		1	check trg exist
+		2	check src exist
+		3	check src bal > amt
+		4	src withdraw
+		5	trg deposit
+		}
+		catch(if trg not found) {
+		6 -> show err
+		}
+		catch(if src not found) {
+		7 -> show err
+		}
+		catch(if scr bal insuff) {
+		8 -> show err
+		}
+
+	}
+
+
+
+	checked			vs		unchecked
+	|					|
+	checked by the compiler			ignored by the compiler
+						only found at runtime
+
+
+	longDrive()
+	
+
+
+kill -9 PID
+
+	try
+	{
+		allocate resource1
+		allocate resource2
+		allocate resource3
+		allocate resource4
+		code1
+		code2
+		code3
+
+	}
+	catch() { 
+		logic
+		System.exit(0);
+	}
+	finally {
+
+		de-allocate resource1
+		de-allocate resource2
+		de-allocate resource3
+		de-allocate resource4
+	}
+
+
+
+
+	Custom Exception | User defined exception
+
+
+		checked?	or Unchecked ?
+
+	class Car
+	{
+
+	} 
+		
+
+-----------------
+Thread = series of statements
+
+
+Bank Records
+----------
+acno	name	balance
+101	Suresh	50000
+102	Dinesh  60000
+103	Ramesh  90000
+104	Rajesh ..
+105	Ritesh ..
+
+			Cash Deposit Counter
+
+		Teller1		Teller2		Teller3
+		|		|		|
+		getBal(103)	getBal(103)	getBal(103)
+		| 70000		|		|
+		calcAmt		calcAmt		calcAmt
+		| 75000		|		|
+		setBal(103)	setBal()	setBal()
+		| 75000		|		|
+		Customer1	Customer2	Customer3
+cash		5000/-		7000/-		8000/-
+ac/no		103		104		105
+deno		100/-Rs 	50/-		2000/-
+cnt		50		140		4
+time		10:30		10:30		10:30
+
+
+		Customer2
+		Customer3..
+	
+
+
+
+
+		<Eatable>
+		|eat()
+		|
+	--------+--------
+	|		|implements	
+	FoodItem	|	 Stone		
+	|eat(){}	|	 |
+	|start(){}	-------+ |
+	|		       | | extends
+	Pizza		      Chalk
+	eat(){}			eat(){}//mandate
+
+
+	Pizza pizza = new Pizza();
+	pizza.start();
+
+	Chalk chalk = new Chalk();
+	FoodItem food = new FoodItem(chalk);
+	food.start(); //will invoke eat of chalk
+
+
+		<Runnable>>
+		|run()
+		|
+	--------+--------
+	|		|implements	
+	Thread		|	 JFrame		
+	|run(){}	|	 |
+	|start(){}	-------+ |
+	|		       | | extends
+	Car		      MyFrame
+	run(){}			run(){}//mandate
+
+
+	Car car = new Car();
+	car.start();
+
+	MyFrame mfr = new MyFrame()
+	Thread t = new Thread(mfr);
+	t.start();
+
+
+I. (Car way) - extending java.lang.Thread
+a) write Car extends Thread
+b) override run()
+c) call the start()
+d) which will invoke your run()
+
+II. (MyFrame way) -implementing java.lang.Runnable 
+a) write MyFrame implements Runnable
+b) mandate to write run()
+c) create object of Thread t = new Thread()
+d) to its constructor pass the Runnable's object (ie, MyFrame)
+e) call Thread t's start() , which will call your MyFrame's run()
+
+
+
+	isAlive() - to check if the thread is alive
+
+	getName() - name of the thread
+
+	setPriority() - 
+
+		MIN_PRIORITY=1
+		NORM_PRIORITY = 5 (default)
+		MAX_PRIORITY=10
+
+	getPriority()
+
+
+
+	Clicker1 - count numbers 
+	Clicker2 - count numbers
+
+
+
+
+Framework = semi developed application
+
+	Collection Framework
+	
+		
+	Components orthogonal space
+
+
+
+				DataType [ Content ]
+				|x ---------- Water
+				|	      FriedRice
+				|	      Noodles
+				|	      PaneerChilly
+				|	      Pickle
+		----------------------------------
+		|y		|i		|z
+		|		|		|
+	   Container	    Iterator	   Algorithm
+	   |			|		  |
+	 Bottle		       Straw		drink()
+	 Plate		       Spoon		eat()
+	 Bowl		       ChopSticks	eat();	
+	 Bowl		       Fork		eat();
+
+
+					Iterable
+					|
+					Collection
+					|
+			--------------------------------
+			|				|
+			List				Set
+			|duplicates			|unique
+		----------------		-----------------
+		|		|		|		|
+	ArrayList	LinkedList		TreeSet		HashSet
+
+growable array
+at one end
+
+	---------
+0	|	|
+	---------
+1	|	|
+	---------
+2	|	|
+	---------
+3	|	|
+	---------
+4	|	|
+
+           ^
+	  /|\
+	   |
+
+
+		
+
+
+
+	Juice = Juice Glass
+
+	Tea   = TeaCup
+
+	ButterMilk = Glass/Steel
+
+	Wine	 = WineGlass | Y shape
+
+	Container provider should produce its own Iterator
+
+	Coconut	  provider should produce the Straw
+
+	
+
+
+	File Handling - File input / output stream = java.io
+
+
+
+
+stdin							stdout
+System.in(1)						System.out(2)
+	|
+	+--------->->->--------> -------------->->->---->	stderr(3)
+	input = reading		your	output = writing 
+				java 
+				program
+				|
+				|
+			------------------------
+			|	|	|
+			HDD	Memory	Network[ socket ]
+			|	|	|
+	File f = new File()    xyz	Socket sock = new Socket();
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------||------------------------------------
+	BYTE BASED	        ||			CHARACTER BASED
+	ASCII = 256		||		UNICODE = 65535
+   1 byte = min unit		||	1 char = 2 bytes = min unit
+InputStream	OutputStream	||	Reader		Writer
+  read()	   write()	||	  read()	  write()
+--------------------------------||------------------------------------
+FileInputStream|		||		  |			
+	     |			||		  |			
+	     |			||		  |			
+	     |			||		  |			
+	     |			||		  |			
+	     |			||		  |			
+	     |			||		  |			
+--------------------------------||------------------------------------
+
+int i=190; //8 bytes to represents
+
+	0000 0000 0000 0000 0000 0000 1011 1110
+	     4      3       <----2--> <---1--->
+
+on harddrive
+
+abc.txt
+--------
+190; // every this as a text 1 9 0 
+--------
+
+
+
+			 Animal
+			 | breathing();
+			 |
+		-----------------
+		|	 |	|
+		Mammal	 |	Bird - virtual base class(es)
+    giveBirth()	|	 | 	   |layEggs(); fly();
+	-------------	 |	----------
+	|	    |	 |	|	|
+	Tiger	    -------------	Parrot
+			  |
+			 Bat
+	
+
+
+		interface Flying
+		{
+			void flyWithAero();
+		}
+		interface Dreaming {
+			void flyInDream();
+		}
+
+	class ButterFly implements Flying, Dreaming
+	{
+		 void fly() { }
+	}
+
+	class Flight implements Flying
+	{
+		void fly() { }
+	}
+
+	
+
+	Object Serialization = process of storing private data on to the external device [ file ]
+
+	following interface doesnot 
+	have any method
+	- its empty interface
+	- known marker interface
+
+	- actually a contract 
+	signedup with JVM
+
+
+
+	java.lang.Serializable
+			|
+			BankAccount
+
+
+	ObjectOutputStream
+
+
+-------------------------------------------------------------
+
+
+
+	mysql
+
+		
+
+	FrontEnd				BackEnd
+	|					|
+	Java					HSQLDB
+						Oracle
+						MySQL
+						MS-SQLServer
+						Sybase
+						MongoDB
+						PostGresSQL
+						MariaDB
+		
+following is NOT inheritance diagram
+
+it just an understanding
+
+
+				...
+				Driver <-- interface
+				|   |
+				|  org.hsqldb.jdbc.JDBCDriver <-- implementation
+				|
+				DriverManager <-- to load the above driver
+				|	      <-- to connect to the DB
+				|
+			----------------
+			|
+			Connection <-- interface
+			|	createStatement();prepareStatement(),prepareCall()
+			|	
+	------------------------------------------
+	|		|			|
+	Statement	PreparedStatement	CallableStatement <-- interfaces
+	SELECT		INSERT/UPDATE/DELETE	PROCEDURE/FUNCTION
+
+-------------------------------------------------------------
+
+
+	DAO Design Pattern
+	MVC pattern
+
+if there is a restaurant owned by Rajesh
+
+Rajesh = one man army
+
+			[ MODEL ] <-- data
+Kitchen = Rajesh - Chef - idli sambar 
+			Pizza
+			FriedRice
+
+
+Rajesh(1) - OrderTaker [ CONTROLLER ]
+|
+Table- menucard [ UI JAVASCRIPT/AJAX/JQUERY/ANGULAR/REACT/JSP]  
+		<-- Presenter
+|
+Customer1
+Customer2<-- Presenter [ VIEW ]
+Customer3
+
+
+		MODEL - DATA - DAO design pattern
+		  |		boolean createTicket(Passenger data);
+		  |		boolean modifyTicket(int pnr,Passenger data);
+		  |		boolean deleteTicket(int pnr);
+		  |		Ticket viewTicket(int pnr);
+		  |		List<Ticket> viewTickets();
+		  |
+	Railway - |finds out the status of your ticket
+		CONTROLLER - program
+
+
+Passenger - PNR - request
+		VIEW
+		|
+	confirmed	RAC	Waiting	
+	ticket
+
+
+
+		Controller <-- request/response
+			|
+		------------------
+		|		|
+		Model		View		
+DAO =	db pojo pojoImpl
+
+Dept, Department, DepartmentImpl
+
+	Pojo= Plain Old Java Object
+
+	DB COnnection
+	
+	1. load the driver
+
+
+
+DAO
+=======
+
+	simple java class = pojo =plail old java object = beans
+
+
+	Java Beans = component
+
+	1. must be in a package
+	2. must be public class
+	3. must have public no-arg constructor
+	4. must have private data
+	5. must have setters/getters
+
+
+Flights				Dept			Emp
+-------				------			-------
+flight_number			deptno			empno
+flight_name			dname			ename
+flight_source			loc			salary
+flight_destination
+|
+corrosponding pojo
+as per the table
+
+Flight - as per the table
+	structure
+
+class Flight
+{
+  int flightNumber;
+
+}
+			Persistence
+			|
+		the process of storing java object in the DB as a ROW
+
+	Department dept  = new Department();
+
+	dept.setDepartmentNumber(50);
+	dept.setDepartmentName("IT");
+	dept.setDepartmentLocation("Mumbai");
+
+
+	JDBC	
+	|
+	Bean managed
+	persistence
+
+
+				BUSINESS LOGIC
+				|
+				(2)coupon counter
+				card/cash/gpay/upi
+	MENU BOARD
+	(1)		
+
+	TAble1	table2
+	table3 table4
+	table5	table6			S
+					E  P1
+					R
+				   (3)	V  P2 -----------> KITCHEN
+					I			BATTER	
+				  	C  P3		  DAO
+					E
+
+	DAO = DATA ACCESS OBJECT = hide the low level data access logic
+	------------
+	1. POJO
+	2. POJI
+	3. POJI IMPL
+
+	1. Department - as per teh dept table
+	2. DepartmentDAO
+	3. DepartmentDAOImpl
+
+
+
+
+		Project
+		|
+	----------------------------------------------------
+	|		|		|		|
+	Pizza		PizzaDAO	PizzaService	PizzaController
+	|		|		|			|
+	entities	dao		service		controller
+	|		|		   |			|
+	Department	DepartmentDAO  DepartmentService  DepartmentController
+	|		DepartmentDAOImpl
+  mapped with		 |		
+  dept table	  selectDepartment(id)
+		  selectDepartments() AL
+		  insertDepartment(Department)
+		  updateDepartment(Department)
+		  deleteDepartment(id)
+			|
+		dao should not perform
+	        any business logic
+
+
+class P  {
+	void far() { 
+		//19 20 21
+	}
+}
+class D {
+	P p = new P()
+	void fee() { 
+		//13 14 15
+		p.far();
+		//16 17 18
+	}
+}
+class S {
+	D d = new D();
+	void foo() { 
+		// 7 8 9
+		d.fee();
+		//10 11 12
+	}
+}
+class C
+{
+	S s = new S();
+
+	fun() { 
+		//1 2 3 
+		s.foo();
+		//4 5 6
+	}
+}
+
+class U {
+	C c = new C();
+	show() {
+		c.fun();
+	}
+}
+U u = new U();
+u.show();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+			
+
+				
+						
+
+
+
+//1. DB LAYER - Table - user_details
+user_id   id   user_title user_body
+1	  1	sunt...	  quia et..
+2	  2	bla	  bla
+..
+10
+
+//2.POJO LAYER - JAVA
+public class User
+{
+   private int userId;
+   private int id;
+   private String title;
+   private String body;
+	ctor/setter/getter
+}
+//3. DAO LAYER - Repository
+	insertUser(User u);
+    	User selectUser(int id);
+        List<User> selectUsers();
+	updateUser(User user);
+        deleteUser(int id;
+     UserDAOImpl
+------------------------------------
+
+//4. Service LAYER 
+	UserService
+		createUser(User u);
+		User findUser(int id);	
+		List<User> findUsers();
+		void modifyUser(User u);
+		void removeUser(int id);
+
+	class UserServiceImpl {
+	  UserDAO userDao = new UserDAOImpl();
+
+	  User findUser(int id)
+	  {
+		...some logic here
+		userDao.selectUser(id);
+		..some logic...here
+	  }
+
+//5. Controller LAYER
+	@RequestMapping("/users");
+	class UserController
+	{
+		UserServiceImpl userService;
+
+		@RequestMapping("/get/{uid"}
+		User getUser(@PathVariable(int uid) int x) {
+			return userService.findUser(x);			
+		}
+	}	
+
+//6. UI
+
+   <a href="http://ip:port/Project/users/get/1">Find User</a>
+
+
+class GeoLocation {
+	float lat;
+	float lng;
+}
+class Address{
+	String street;
+	String suite;
+	String city;
+	String zip;
+	GeoLocation geo; //hasA
+}
+class Company {
+	String name;
+	String catchPhrase;
+	String bs;
+}
+class User {
+	int id;
+	String name;
+	String username;
+	String email;
+	Address address; //hasA
+	String phone;
+	String website;
+	Company company; //hasA
+}
+
+user_tbl
+------------
+PK
+id	name	username	email		phone	website	
+1	LG	Bret		Sincere@april.. 1-770	hild...
+
+address_tbl
+---------------
+PK
+address_id street	suite	city	zipcode	  uid(FK)
+10	   Kulas   Apt..   Gwen...	92...	  1
+
+geolocation_tbl
+-------------------
+FK
+add_id	long	latt
+10	-37..	81..
+
+company_tbl
+-----------
+uid	name	catch_phr	bs
+1	Roagu	Mutli...	harness...
+
+
+
+
+
+
+----------------------------------------------
+A J A X
+
+	Asynchronous JavaScript and XML
+			 |	      |	
+		     -validation      describe data/transport the data
+		     -affect the DOM	in a structured manner
+		     -affect CSS
+		     -change html
+		     -calculations
+		     -automation
+		     at the client	
+
+love.ini
+
+love.txt
+----------
+Hello Rita,
+
+   How are you doing?
+
+   I am missing you
+
+Regards
+3Idiots
+---------------
+
+love.xml
+<xml>
+<........ "love-letter.dtd">
+<love-letter>
+	<salutation>
+		Hello Rita
+	</salutation>
+	<main-body>
+		<introspect> How are you doing?</introspect>
+		<emotional-damage> I am missing you </emotional-damange>
+	</main-body>
+	<closing-caption>Regards 3Idiots</closing-caption>
+</love-letter>
+
+
+
+	XHR = XmlHttpRequest - object
+
+
+
+	Enter username
+	
+	Enter email
+
+	Enter address information
+
+	Enter country : India <-- as soon as india is selected
+
+	Enter state : all the states of India should be populated here 
+			as soon as a particular state is selected
+			then all the major cities should be populated in below field
+		
+			Maharashtra <-- selected, Punjab
+
+	Select City : <-- all the major cities of maharashtra should appear here
+
+	Enter birthdate
+
+	Enter adhaar
+	Enter pan
+
+	SUBMIT <-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class A {
+	B b = new B(this);
+	void fun();
+		b.setVisible(true);
+	}
+}
+
+class B {
+    A a;
+	B(A a) {
+		this.a = a;
+	}
+	void foo() {
+		a.setVisible(false);
+
+	}
+}
+
+
+
+
+
+
+
+
+
+INSERT INTO DEPT_M VALUES (10,'ACCOUNTING','NEW YORK');
+INSERT INTO DEPT_M VALUES (20,'RESEARCH','DALLAS');
+INSERT INTO DEPT_M VALUES (30,'SALES','CHICAGO');
+INSERT INTO DEPT_M VALUES (40,'OPERATIONS','BOSTON');
+
+
+
+
+
+
+
+
+
+TABLE CONSTRAINTS
+
+
+
+	1. INTEGRITY CONTRAINT
+
+		PRIMARY KEY = UNIQUE + NOT NULL
+		EMPNO, CUSTID, ROLLNO, ADHAARNUMBER
+		
+
+
+		PK			U+NN
+		EMPNO	ENAME	JOB	EMAIL	SAL
+		101			..
+		102			..
+		103			..
+
+
+			- COMPOSITE PRIMARY KEY
+			STD+DIV+ROLLNO
+
+			X	A	10
+			X	B	10
+			XI	A	10	
+			X	C	10
+			IX	B	10	
+	2. UNIQUE CONSTRAINT
+
+		UNIQUE VALUES
+		MAY HAVE NULL VALUES - BUT ALL ARE UNIQUE
+			EMAIL OF AN EMPLOYEE
+			PHONE NUMBER OF AN EMPLOYEE
+			NUMBERPLATE OF A CAR
+
+	3. CHECK CONSTRAINTS
+		USING CHECK CONDITION
+
+			CHECK SAL > 50000
+			CHECK SAL > COMM
+			CHECK BIRTHDATE <= CURRENTDATE
+			CHECK COMM < 500
+			CHECK CITY IN MUMBAI PUNE DELHI CHENNAI BENGALURU
+
+	4. NOT NULL CONSTRAINT
+		CHECK IF THE COLUMN IS EMPTY - IF EMPTY - ERROR
+		
+			GENDER MUST BE ISSUED
+			BIRTHDATE MUST BE ISSUED
+			NAME MUST BE ISSUED
+			SOURCE, DESTINATION OF A BUS, FLIGHT MUST BE KNOWN
+			
+	5. REFERENTIAL INTEGRITY
+
+			FOREIGN KEY COLUMN
+			MAY HAVE NULL AND DUPLICATES
+
+		DEPT
+		|
+		DEPTNO <-- PK
+		10
+		20
+		30
+		40
+
+			EMP		 FK<-- SELF-REFERENTIAL INTEGRITY
+					 |
+			EMPNO	ENAME	MGR	JOB	SAL	DNO<-- FK ( DEPT - DEPTNO)
+			101	JOHN	NULL	..	..	10
+			102	JANE	101			10
+			103	JULIE	101			20
+			104	JIM	102			20
+			105  	JANE	102			30
+
+
+
+CONSTRAINT CONTRAINT_NAME  CONSTRAINT_TYPE
+   |		|		|
+CONSTRAINT EMP_FOREIGN_KEY FOREGIN KEY(DEPTNO) REFERENCES EMP(EMPNO)
+CONSTRAINT EMP_PK          PRIMARY KEY(EMPNO)
+
+
+DEPT_M <-- MASTER TABLE
+
+
+CREATE TABLE EMP_C (
+ EMPNO			INT PRIMARY KEY,               
+ ENAME               VARCHAR(10) NOT NULL,
+ EMAIL		     VARCHAR(20) UNIQUE,
+ JOB                 VARCHAR(9) NOT NULL,
+ MGR                 INT  REFERENCES EMP_C (EMPNO),
+ HIREDATE            DATE,
+ SAL                 INT,
+ COMM                INT CHECK (COMM>100),
+ DNO                 INT NOT NULL,
+ FOREIGN KEY (DNO) REFERENCES DEPT_M (DEPTNO)
+);
+
+
+INSERT INTO EMP_C VALUES (7839,'KING','king@gmail.com','PRESIDENT',NULL,'17-NOV-81',5000,NULL,10);
+INSERT INTO EMP_C VALUES (7698,'BLAKE','blake@gmail.com','MANAGER',7839,'1981-5-1',2850,NULL,30);
+INSERT INTO EMP_C VALUES (7782,'CLARK','clark@gmail.com','MANAGER',7839,'1981-6-9',2450,NULL,10);
+INSERT INTO EMP_C VALUES (7566,'JONES','jones@gmail.com','MANAGER',7839,'1981-3-2',2975,NULL,20);
+INSERT INTO EMP_C VALUES (7654,'MARTIN','martin@gmail.com','SALESMAN',7698,'1981-9-28',1250,1400,30);
+INSERT INTO EMP_C VALUES (7499,'ALLEN','allen@gmail.com','SALESMAN',7698,'1981-2-20',1600,300,30);
+INSERT INTO EMP_C VALUES (7844,'TURNER','turner@gmail.com','SALESMAN',7698,'1981-9-8',1500,0,30);
+INSERT INTO EMP_C VALUES (7900,'JAMES','james@gmail.com','CLERK',7698,'1981-12-3',950,NULL,30);
+INSERT INTO EMP_C VALUES (7521,'WARD','ward@gmail.com','SALESMAN',7698,'1981-2-22',1250,500,30);
+INSERT INTO EMP_C VALUES (7902,'FORD','ford@gmail.com','ANALYST',7566,'1981-12-3',3000,NULL,20);
+INSERT INTO EMP_C VALUES (7369,'SMITH','smith@gmail.com','CLERK',7902,'1980-12-17',800,NULL,20);
+INSERT INTO EMP_C VALUES (7788,'SCOTT','scott@gmail.com','ANALYST',7566,'1982-12-9',3000,NULL,20);
+INSERT INTO EMP_C VALUES (7876,'ADAMS','adams@gmail.com','CLERK',7788,'1983-1-12',1100,NULL,20);
+INSERT INTO EMP_C VALUES (7934,'MILLER','miller@gmail.com','CLERK',7782,'1982-1-23',1300,NULL,10);
+
+
+
+
+
